@@ -11,28 +11,20 @@
 
 <body>
   <form action="">
-    <h1>Formulario</h1>
-    <div>
-      <label for="nombre">Nombre:</label><br>
-      <input type="text" id="name" pattern="[A-Za-z]{1,}" title="Ingrese un nombre válido" required>
-    </div>
-    <div>
-      <label for="apellido">Apellido:</label><br>
-      <input type="text" id="lastname" pattern="[A-Za-z]{1,}" title="Ingrese un apellido válido" required>
-    </div>
-    <div>
-      <label for="dni">DNI:</label><br>
-      <input type="number" id="id" length="8" title="Ingrese un DNI válido" required>
-    </div>
-    <div>
-      <label for="dirección">Dirección:</label><br>
-      <input type="text" id="adress" pattern=".{1,}" title="Ingrese una dirección válida" required>
-    </div><br>
-    <div>
-      <input type="submit" onclick="Datos()" value="Enviar">
-    </div>
-    <div id="info"></div>
 
+    <div>
+      <h1>Formulario</h1><br>
+      <label for="nombre">Nombre:</label><br>
+      <input type="text" id="name"><br>
+      <label for="apellido">Apellido:</label><br>
+      <input type="text" id="lastname"><br>
+      <label for="dni">DNI:</label><br>
+      <input type="number" id="id"><br>
+      <label for="dirección">Dirección:</label><br>
+      <input type="text" id="adress"><br><br>
+      <button type="submit" id="enviar">Enviar</button><br><br>
+      <div id="info"></div>
+    </div>
   </form>
 
   <script src="assets\js\app.js"></script>
